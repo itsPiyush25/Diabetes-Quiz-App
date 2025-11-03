@@ -30,7 +30,7 @@ export default function StartScreen({ onStart }: StartScreenProps) {
           <p className="text-sm text-gray-600">
             Sponsored by:
             <span className="font-semibold text-blue-800">
-              {" "}ABC Pharma — MetCare Division
+              {" "} OneTouch Lifescience — MetCare Division
             </span>
           </p>
         </div>
