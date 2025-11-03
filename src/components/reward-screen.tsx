@@ -38,7 +38,7 @@ export default function RewardScreen({ onRestart }: RewardScreenProps) {
         <div className="flex items-center justify-center space-x-2 bg-green-50 border border-green-200 rounded-lg py-2 px-3 mb-6">
           <BadgeCheck className="w-5 h-5 text-green-600" />
           <p className="text-sm text-green-700 font-medium">
-            Verified Partner Offer – ABC Pharma | MetCare Division
+            Verified Partner Offer –  OneTouch Lifescience | MetCare Division
           </p>
         </div>
 
