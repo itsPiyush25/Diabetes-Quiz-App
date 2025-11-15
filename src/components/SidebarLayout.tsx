@@ -4,11 +4,12 @@ import { PlayCircle, Video, QrCode, ShoppingBag } from "lucide-react";
 export default function SidebarLayout() {
   const location = useLocation();
   const navItems = [
-    { name: "Quiz", path: "/", icon: PlayCircle },
-    { name: "Learn", path: "/learn", icon: Video },
-    { name: "Product Info", path: "/product", icon: ShoppingBag },
-    { name: "QR Guide", path: "/qr", icon: QrCode },
-  ];
+  { name: "Quiz", path: "/", icon: PlayCircle },
+  { name: "Learn", path: "/learn", icon: Video },
+  { name: "Product Info", path: "/product-info", icon: ShoppingBag },
+  { name: "QR Guide", path: "/qr", icon: QrCode },
+];
+
 
   return (
     <div className="flex min-h-screen bg-gray-50">
