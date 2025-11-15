@@ -28,7 +28,7 @@ export default function QuizPage() {
 
   const handleStart = () => {
     setGameState("playing");
-    setTimeLeft(15);
+    setTimeLeft(5);
     setScore(0);
     setCurrentQuestion(0);
     setSelectedAnswer(null);

@@ -3,7 +3,7 @@ import React from "react";
 
 interface TimerProps {
   timeLeft: number;
-  totalTime?: number; // ✅ added optional prop
+  totalTime?: number; 
 }
 
 const Timer: React.FC<TimerProps> = ({ timeLeft, totalTime = 15 }) => {
